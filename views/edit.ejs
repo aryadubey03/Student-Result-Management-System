@@ -1,0 +1,19 @@
+<a href="/teacherLogin/viewAll" class="back-button">Back</a>
+<div class="login-container">
+  <h2>DETAILS UPDATE</h2>
+  <form method="POST">
+    <div class="input-field">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" value="<%= student.name %>">
+    </div>
+    <div class="input-field">
+        <label for="rollno">Roll No</label>
+        <input type="number" id="rollno" name="roll" value="<%= student.rollno %>">
+    </div>
+    <div class="input-field">
+        <label for="score">Score</label>
+        <input type="number" id="score" name="score" value="<%= student.score %>">
+    </div>
+    <button type="submit" class="login-button">SUBMIT</button>
+</form>
+</div>

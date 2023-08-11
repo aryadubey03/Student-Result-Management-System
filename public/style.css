@@ -1,0 +1,157 @@
+*{
+    margin:0;
+    padding:0;
+    border:border-box;
+    background-color: #D8D8F6;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#navbar{
+    text-align: center;
+    height: 47px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #293132;
+    color:white;
+}
+#body{
+    display:flex;
+    margin-top: 115px;
+    margin-bottom: 122.5px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.container{
+    text-align: center;
+    box-shadow: 10px 10px rgba(0, 24, 64, 0.12);
+    height:320px;
+    width:260px;
+    /*border:2px solid black;*/
+}
+#teacher{
+    background-image: url("teacher.jpg");
+    background-size: cover;
+}
+#student{
+    background-image: url("student.jpeg");
+    background-size: cover;
+}
+#viewAll{
+    background-image: url("viewall.jpg");
+    background-size: cover;
+}
+#edit{
+    background-image: url("edit.jpg");
+    background-size: cover;
+}
+.container button{
+    margin-top: 250px;
+    border: none;
+    background-color: #2C2C34;
+    color: white;
+    border-radius: 30px;
+    padding: 20px;
+}
+.container button a{
+    background-color: #2C2C34;
+    color: white;
+    border: none;
+    text-decoration: none;
+}
+.container button:hover{
+    padding: 25px;
+}
+.icon{
+    height:220px;
+    width:160px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.login-container {
+    margin-top: 150px;
+    margin-right: 200px;
+    margin-left: 400px;
+    margin-bottom: 150px;
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.login-container h2 {
+    text-align: center;
+}
+.input-field {
+    margin-bottom: 15px;
+}
+.input-field label {
+    display: block;
+    margin-bottom: 5px;
+}
+.input-field input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.input-field input:focus {
+    outline: none;
+    border-color: #293132;
+}
+.login-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #293132;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.login-button:hover {
+    background-color: #293132;
+}
+.back-button{
+    margin-left: 10px;
+    text-decoration: none;
+    color: #293132;
+}
+
+#footer{
+    text-align: center;
+    height: 40px;
+    font-size: 15px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #293132;
+    color:white;
+}
+
+.table-container{
+    margin-top: 100px;
+    margin-right: 100px;
+    margin-left: 150px;
+    margin-bottom: 385px;
+    width: 900px;
+    text-align: center;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+}
+th, td {
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+th {
+    background-color: #f2f2f2;
+    text-align: center;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
